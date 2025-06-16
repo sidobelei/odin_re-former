@@ -1,0 +1,22 @@
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>Re-Former</title>
+    </head>
+    <body>
+        <form action="/users" method="post" accept-charset="UTF-8">
+            <input 
+                type="hidden" 
+                name="authenticity_token" 
+                value="<%= form_authenticity_token %>"
+            >
+            <label for="username">Username</label>
+            <input type="text" name="username">
+            <label for="email">Email</label>
+            <input type="text" name="email">
+            <label for="password">Password</label>
+            <input type="password" name="password">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
