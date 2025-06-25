@@ -1,4 +1,14 @@
-<html lang="eng">
+<%= form_tag "/users", method: "post" do %>
+    <%= label_tag 'username', 'Username' %>
+    <%= text_field_tag 'username' %>
+    <%= label_tag 'email', 'Email' %>
+    <%= text_field_tag 'email' %>
+    <%= label_tag 'password' %>
+    <%= password_field_tag 'password' %>
+    <%= submit_tag("Submit") %>
+<% end %>
+
+<!--<html lang="eng">
     <head>
         <meta charset="UTF-8">
         <title>Re-Former</title>
@@ -8,7 +18,7 @@
             <input 
                 type="hidden" 
                 name="authenticity_token" 
-                value="<%= form_authenticity_token %>"
+                value="<%= <%# form_authenticity_token %> %>"
             >
             <label for="username">Username</label>
             <input type="text" name="user[username]">
@@ -19,4 +29,4 @@
             <input type="submit" value="Submit">
         </form>
     </body>
-</html>
+</html>-->
