@@ -1,24 +1,5 @@
-# README
+# odin_re-former
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The purpose of this project was to build forms in Rails using HTML then helper methods.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The main focus was to get more familiar with forms in a Rails context.  
